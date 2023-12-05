@@ -1,0 +1,163 @@
+#hero-image {
+    background-image: url("../image/the-weeknd.jpg"); 
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding:0;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    height: calc(100vh - 50px);
+  }
+  .navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: #af0505;
+    justify-content: center;
+    width: 100%;
+   }
+   
+   .navbar a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:dotted;
+   }
+   
+   .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+
+#hero-text {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#articulo1{
+    width: 33%;
+}
+#articulo1 h2{
+   text-align: center;
+
+}
+
+#articulo2{
+    width: 33%;
+}
+#articulo2 h2{
+  text-align: center;
+
+}
+
+#articulo3{
+    width: 33%; 
+}
+#articulo3 h2{
+  text-align: center;
+}
+
+#articulo2 ul {
+  display: inline-block;
+  text-align: left;
+}
+#articulo2 div {
+  text-align: center;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+
+.video{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 230px;
+}
+
+footer{
+  width: 100%;
+  padding: 20px;
+  background-color:  #af0505;
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width:780px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .video{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 85%;
+    height: 85%;
+  
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+  }
+  
+  #hero-text {
+    display: flex;
+     flex-direction: row;
+     justify-content: center;  
+     text-align: center;
+     color: white;
+     font-size: 30px;
+   }
+
+   #articulo1{
+    width: 100%;
+   }
+   #articulo2{
+    width: 100%;
+   }
+   #articulo3{
+    width: 100%;
+   }
+
+   footer{
+    width: 100%;
+    padding: 20px;
+    background-color:  #af0505;
+  }
+  
+}
+
+
+
